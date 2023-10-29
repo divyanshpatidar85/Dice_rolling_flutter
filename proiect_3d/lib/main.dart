@@ -93,11 +93,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   : Container(
                       height: 20,
                       width: 30,
-                      decoration: BoxDecoration(
-                          border: Border.all(
-                              color: Colors.black,
-                              width: 1.0,
-                              style: BorderStyle.solid)),
                       child: Column(
                         children: [
                           randomDouble == 1
